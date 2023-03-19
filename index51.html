@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Rip Kobe 🕊️</title>
+        <link rel="stylesheet" href="estilos5.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Alexandre Santos">
+        <meta name="description" content="Hero Page">
+        <meta name="keywords" content="palavras chave">
+        <link rel="shortcut icon" href="images/number.jpg">
+    </head>
+
+    <body>
+ 
+    
+            <menu>
+                <nav>
+                    <input type="checkbox" id="ham-menu">
+                    <label for="ham-menu">
+                        <div class="hide-des">
+                            <span class="menu-line"></span>
+                            <span class="menu-line"></span>
+                            <span class="menu-line"></span>
+                            <span class="menu-line"></span>
+                            <span class="menu-line"></span>
+                            <span class="menu-line"></span>
+                        </div>
+                    </label>
+
+                    <div class="ham-menu">
+                        <ul class="centre-text bold-text">
+                          <li> <b><a href="index.html" target="blank_">Hero Page</a></b></li>
+                          <li> <b><a href="index41.html" target="blank_">Pagina Paralax</a></b></li>
+                          <li> <b><a href="index51.html" target="blank_">Vídeo background</a></b></li>
+                          <li> <b><a href="index61.html" target="blank_">Animações e poema</a></b></li>
+                          <li> <b><a href="index21.html" target="blank_">Lab2</a></b></li>
+                          <li> <b><a href="index31.html" target="blank_">Lab3</a></b></li>
+                         <li> <a href="#autor">Author and Contact
+                              </a></li>
+                        </ul>
+                    </div>
+                </nav>
+
+            </menu>
+
+        
+            <video autoplay muted loop id="myVideo">
+                <source src="images/rain.mp4" type="video/mp4">
+              </video>
+              
+              <!-- Optional: some overlay text to describe the video -->
+              <div class="content">
+                <h1>Heading</h1>
+                <p>Lorem ipsum...</p>
+                <!-- Use a button to pause/play the video with JavaScript -->
+                <button id="myBtn" onclick="myFunction()">Pause</button>
+              </div>
+
+              <script>
+                // Get the video
+                var video = document.getElementById("myVideo");
+                
+                // Get the button
+                var btn = document.getElementById("myBtn");
+                
+                // Pause and play the video, and change the button text
+                function myFunction() {
+                  if (video.paused) {
+                    video.play();
+                    btn.innerHTML = "Pause";
+                  } else {
+                    video.pause();
+                    btn.innerHTML = "Play";
+                  }
+                }
+                </script>
+    </body>
+
+
+</html>
